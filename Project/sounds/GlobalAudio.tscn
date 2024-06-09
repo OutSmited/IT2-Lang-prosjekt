@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://desfco6goqiak"]
+
+[ext_resource type="AudioStream" uid="uid://ca3635u7p631k" path="res://sounds/Trove_Soundtrack.mp3" id="1_5a1bi"]
+
+[node name="Background Music" type="AudioStreamPlayer"]
+stream = ExtResource("1_5a1bi")
+autoplay = true
